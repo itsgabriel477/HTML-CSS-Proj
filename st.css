@@ -1,0 +1,80 @@
+
+.first{
+    background-color: rgb(7, 120, 148);
+}
+.nav-masthead {
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    font-size: 20px;
+    gap: 20px;
+    padding-bottom: 15px;
+  }
+.name{
+    color: #ffffff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 50px;
+}
+.px-3>.lead{
+    color: rgb(255, 255, 255); ;
+}
+.Cover{
+    border-radius: 50%;
+}
+.innit{
+    background-color: #ffffff;
+    color: rgb(7, 120, 148);
+    width: 24%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto; 
+}
+.skills{
+    margin-top: 10px;
+}
+.skill-set{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: none;
+    color: rgb(7, 120, 148);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    margin-top: 20px;
+
+}
+.fw-normal{
+    color: rgb(7, 120, 148);
+
+}
+.d-block {
+    border-radius: 20px;
+}
+@media (min-width: 481px) and (max-width: 1200px){
+    .innit{
+        width: 50%;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width:360px) and (max-width: 667px) {
+    .innit{
+        width: 80%;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    .pic{
+        padding-top: 0px;
+    }
+}
